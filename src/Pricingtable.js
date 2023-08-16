@@ -35,22 +35,22 @@ export default function Pricingtable({ props }) {
                <div><RxCheck/> {details.projects}</div>
                <div><RxCheck/> {details.access}</div>
                
-               {details.user == 'Single User' ? (<a href="#" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
+               {details.user === 'Single User' ? (<a href="www.google.com" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
                border: "none",
                color:"black",
                }}> <RxCross2/> {details.private} </a>): (<div> <RxCheck/> {details.private} </div>)}
  
-               {details.user == 'Single User' ? (<a href="#" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
+               {details.user === 'Single User' ? (<a href="www.google.com" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
                border: "none",
                color:"black",
                }}>  <RxCross2/> {details.support} </a>): (<div> <RxCheck/> {details.support} </div>)}
 
-              {details.user == 'Single User' ? (<a href="#" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
+              {details.user === 'Single User' ? (<a href="www.google.com" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
                border: "none",
                color:"black",
                }}>  <RxCross2/> {details.domain} </a>): (<div> <RxCheck/> {details.domain} </div>)}
 
-               {details.user == 'Single User'&&'5 Users' ? (<a href="#" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
+               {details.user === 'Single User'&&'5 Users' ? (<a href="www.google.com" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
                border: "none",
                color:"black",
                }}>  <RxCross2/> {details.report} </a>): (<div> <RxCheck/> {details.report} </div>)}
