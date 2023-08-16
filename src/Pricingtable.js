@@ -56,8 +56,8 @@ export default function Pricingtable({ props }) {
 
                <br></br>
 
-               {details.user == 'Unlimited Users' ? (<div class="d-grid col-6 mx-auto"><button class="btn btn-primary" type="button">Button</button></div>) : (<div class="d-grid col-6 mx-auto">
-                 <a class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Button</a>
+               {details.user === 'Unlimited Users' ? (<div class="d-grid col-6 mx-auto"><button class="btn btn-primary" type="button">Button</button></div>) : (<div class="d-grid col-6 mx-auto">
+                 <a href="www.google.com" class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Button</a>
                 </div>)}
                
              </CardBody>
