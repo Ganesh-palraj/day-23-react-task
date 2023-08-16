@@ -5,8 +5,7 @@ import { RxCheck , RxCross2 } from "react-icons/rx";
 import {
   Card,
   CardHeader,
-  CardBody,
-  Button
+  CardBody
 } from "reactstrap";
 
 export default function Pricingtable({ props }) {
@@ -35,30 +34,30 @@ export default function Pricingtable({ props }) {
                <div><RxCheck/> {details.projects}</div>
                <div><RxCheck/> {details.access}</div>
                
-               {details.user == 'Single User' ? (<a href="#" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
+               {details.user === 'Single User' ? (<a href="www.google.com" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
                border: "none",
                color:"black",
                }}> <RxCross2/> {details.private} </a>): (<div> <RxCheck/> {details.private} </div>)}
  
-               {details.user == 'Single User' ? (<a href="#" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
+               {details.user === 'Single User' ? (<a href="www.google.com" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
                border: "none",
                color:"black",
                }}>  <RxCross2/> {details.support} </a>): (<div> <RxCheck/> {details.support} </div>)}
 
-              {details.user == 'Single User' ? (<a href="#" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
+              {details.user === 'Single User' ? (<a href="www.google.com" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
                border: "none",
                color:"black",
                }}>  <RxCross2/> {details.domain} </a>): (<div> <RxCheck/> {details.domain} </div>)}
 
-               {details.user == 'Single User'&&'5 Users' ? (<a href="#" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
+               {details.user === 'Single User'&&'5 Users' ? (<a href="www.google.com" class="btn btn-outline-secondary disabled" tabindex="-1" role="button" aria-disabled="true" style={{
                border: "none",
                color:"black",
                }}>  <RxCross2/> {details.report} </a>): (<div> <RxCheck/> {details.report} </div>)}
 
                <br></br>
 
-               {details.user == 'Unlimited Users' ? (<div class="d-grid col-6 mx-auto"><button class="btn btn-primary" type="button">Button</button></div>) : (<div class="d-grid col-6 mx-auto">
-                 <a class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Button</a>
+               {details.user === 'Unlimited Users' ? (<div class="d-grid col-6 mx-auto"><button class="btn btn-primary" type="button">Button</button></div>) : (<div class="d-grid col-6 mx-auto">
+                 <a  href="www.google.com" class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Button</a>
                 </div>)}
                
              </CardBody>
