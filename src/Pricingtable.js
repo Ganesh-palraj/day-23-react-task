@@ -19,7 +19,7 @@ export default function Pricingtable({ props }) {
              key={details.id} // Add a unique key to each Card component
              className="col mt-5"
              style={{
-               width: "27%",
+               width: "30%",
                height:"auto",
              }}
            >
