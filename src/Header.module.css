@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    background-color: orange;
+    height: 350px;
+    color: white;
+    border-bottom-right-radius: 33%;
+    align-items: center;
+    justify-content: center;
+}
