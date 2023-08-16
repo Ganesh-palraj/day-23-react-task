@@ -5,8 +5,7 @@ import { RxCheck , RxCross2 } from "react-icons/rx";
 import {
   Card,
   CardHeader,
-  CardBody,
-  Button
+  CardBody
 } from "reactstrap";
 
 export default function Pricingtable({ props }) {
