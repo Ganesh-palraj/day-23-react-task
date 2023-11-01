@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+WEBSISTE LINK - https://react-task-1-price-cart.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
